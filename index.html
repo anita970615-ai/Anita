@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My University Journey | 個人 IP 成果展</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts 載入好看的字型 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 導覽列 -->
+    <nav class="navbar">
+        <div class="logo">YOUR IP<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">關於我</a></li>
+            <li><a href="#timeline">四年歷程</a></li>
+            <li><a href="#portfolio">代表作品</a></li>
+            <li><a href="#contact">聯絡合作</a></li>
+        </ul>
+    </nav>
+
+    <!-- 首頁 Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <span class="badge">University Portfolio (2022 - 2026)</span>
+            <h1>探索創作與知識的<br><span class="highlight">無限可能性</span></h1>
+            <p>你好！我是 [您的名字]，這是我在大學四年期間累積的創作成果、學術探索與個人 IP 作品集。</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn primary-btn">查看作品集</a>
+                <a href="#contact" class="btn secondary-btn">聯絡我</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 關於我 About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">ABOUT ME<span>關於我</span></h2>
+        <div class="about-container">
+            <div class="about-card">
+                <h3>立體視覺與創作</h3>
+                <p>熱衷於獨特的視覺美學、歐美風格與生活化內容創作。專注於將日常靈感轉化為具體的 IP 角色與作品。</p>
+            </div>
+            <div class="about-card">
+                <h3>跨領域學習</h3>
+                <p>大學期間橫跨多個領域，從人文社會到專業知識，保持對新事物的好奇心與持續學習的執行力。</p>
+            </div>
+            <div class="about-card">
+                <h3>內容與社群</h3>
+                <p>具備從概念企劃、視覺視覺設計到社群內容呈現的全流程創作能力。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 四年歷程 Timeline Section -->
+    <section id="timeline" class="section dark-bg">
+        <h2 class="section-title">FOUR-YEAR JOURNEY<span>四年歷程</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="year">大一 · 探索與啟航</span>
+                    <h3>基礎建立與美學摸索</h3>
+                    <p>修習核心基礎課程，同時探索個人視覺風格，建立基本的創作者思考架構。</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="year">大二 · 技能深化</span>
+                    <h3>專案實作與軟體應用</h3>
+                    <p>開始進行獨立創作與跨領域專案，研習數位繪圖與視覺設計實務。</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="year">大三 · IP 建立</span>
+                    <h3>角色設計與專題開發</h3>
+                    <p>規劃原創 IP 與日常生活貼圖專案，完成完整的創作流程與主題設計。</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="year">大四 · 整合與輸出</span>
+                    <h3>畢業專題與個人品牌</h3>
+                    <p>整合大學四年的所有學習成果，建立個人品牌網站，走向市場與專業領域。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 代表作品 Portfolio Section -->
+    <section id="portfolio" class="section">
+        <h2 class="section-title">PORTFOLIO<span>代表作品</span></h2>
+        
+        <!-- 分類篩選按鈕 -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">全部</button>
+            <button class="filter-btn" data-filter="ip">IP/貼圖設計</button>
+            <button class="filter-btn" data-filter="academic">學術/專題</button>
+            <button class="filter-btn" data-filter="visual">視覺/創作</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <!-- 作品卡片 1 -->
+            <div class="portfolio-card" data-category="ip">
+                <div class="card-img">
+                    <div class="img-placeholder">日常主題 IP 貼圖專案</div>
+                </div>
+                <div class="card-info">
+                    <span class="tag">IP/貼圖設計</span>
+                    <h3>日常角色貼圖系列</h3>
+                    <p>以生活幽默與獨特角色個性為核心設計的貼圖組合。</p>
+                </div>
+            </div>
+
+            <!-- 作品卡片 2 -->
+            <div class="portfolio-card" data-category="visual">
+                <div class="card-img">
+                    <div class="img-placeholder">視覺美學風格創作</div>
+                </div>
+                <div class="card-info">
+                    <span class="tag">視覺/創作</span>
+                    <h3>個性風格視覺企劃</h3>
+                    <p>結合立體妝容與個性短髮造型元素的視覺創作輯。</p>
+                </div>
+            </div>
+
+            <!-- 作品卡片 3 -->
+            <div class="portfolio-card" data-category="academic">
+                <div class="card-img">
+                    <div class="img-placeholder">大學專題報告</div>
+                </div>
+                <div class="card-info">
+                    <span class="tag">學術/專題</span>
+                    <h3>跨領域主題研究專案</h3>
+                    <p>大學期間針對特定領域進行深度分析與資料整理的成果。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 聯絡 Contact Section -->
+    <section id="contact" class="section dark-bg">
+        <h2 class="section-title">CONTACT<span>聯絡合作</span></h2>
+        <div class="contact-container">
+            <p>如果您對我的作品感興趣，或有合作想法，歡迎隨時透過社群或 Email 與我聯繫！</p>
+            <div class="social-links">
+                <a href="#" class="social-btn">Instagram</a>
+                <a href="#" class="social-btn">LINE</a>
+                <a href="#" class="social-btn">GitHub</a>
+                <a href="mailto:your-email@gmail.com" class="social-btn">Email Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer>
+        <p>&copy; 2026 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
